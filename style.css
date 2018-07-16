@@ -1,0 +1,65 @@
+body  {
+    background-image: url("https://i.stack.imgur.com/RLQNm.jpg");
+    background-size:100%, 100%;
+
+}
+.crystals {
+    height: 150px;
+    width: 150px;
+
+}
+
+header{
+    text-align: center;
+    border-color:black;
+    border-width: 20%;
+}    
+.container{
+    width: 16%;
+    height: auto;
+    margin: auto;
+    color: white;
+
+}
+.main-container{
+    font-size: 20px;
+    height:300px ;
+    margin-left: 25%;
+    width: 50%;
+    padding: 10px;
+    background-color: peachpuff;
+    
+    }
+
+#win{ 
+    background-color: peachpuff;
+    width: 90px;
+    height: auto;
+    margin-left: 46.5%;
+
+}
+#lost{ 
+    background-color: peachpuff;
+    width: 90px;
+    margin-left: 46.5%;
+
+}
+#score{ 
+    background-color: peachpuff;
+    width: 130px;
+
+    margin-left: 45%;
+
+}
+
+.result{ 
+    background-color: peachpuff;
+    width: 130px;
+    margin-bottom: 30px;
+    margin-left: 45%;
+
+}
+.crystals-container{
+    margin-left: 28%; 
+
+}
