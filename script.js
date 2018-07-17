@@ -50,6 +50,8 @@ function makeCrystals() {
         var randomNum = Math.floor(Math.random() * 12) + 1;
         $(".crystals-container").append(
             "<img class='crystal crystals' value="+randomNum+"  src=" + crystals[i] + ">"
+        
+        
         )}}
 
         $('#score').html("Current Score: " +score);   
@@ -58,7 +60,7 @@ function makeCrystals() {
 
 
     $(document).on("click", ".crystal", function(){
-        console.log($(this).attr("value"));
+        $(this).attr("value");
         var crystalValue = parseInt($(this).attr("value"))
         score += crystalValue
         $('#score').html("Current Score: " +score);
